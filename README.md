@@ -1,6 +1,13 @@
 # filter_tstat_by_asn
 Filter tstat tcp_complete.log entries by a given autonomous system number on a spark cluster.
 
+## Setup 
+
+Setup pyasn on your driver and workers.
+
+https://pypi.org/project/pyasn/
+
+
 ## Input:
 
 ### ipasn
