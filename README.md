@@ -1,9 +1,9 @@
 # filter_tstat_by_asn
-Filter tstat tcp_complete.log entries by a given autonomous system number on a spark cluster.
+Given an autonomous system number, uses spark to filter the TCP flows of a tstat tcp_complete.log HDFS file by the AS number of the flow's server IP address.
 
 ## Setup 
 
-Setup pyasn on your driver and workers.
+Install pyasn on your spark driver and workers.
 
 https://pypi.org/project/pyasn/
 
@@ -24,7 +24,7 @@ hdfs:///your/hdfs/input_tstat_file/log_tcp_complete.gz
 
 ### edit run_filter_tstat_by_asn.sh
 
-Target AS number, ipasn_file (--files and --local_asn_ipasn_file), tstat input, tstat output 
+Choose: target AS number to filter with, ipasn_file (--files and --local_asn_ipasn_file), tstat input filename, tstat output filename
 
 ## run
 
