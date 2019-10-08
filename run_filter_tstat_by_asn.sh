@@ -1,0 +1,1 @@
+spark-submit --master yarn --deploy-mode client --conf "spark.ui.showConsoleProgress=true" --files ipasn_file filter_tstat_by_asn.py --target_asn 100000 --local_asn_ipasn_file ipasn_file --hdfs_tstat_input_file /your/hdfs/input_tstat_file/log_tcp_complete.gz --hdfs_tstat_output_file /your/hdfs/output_tstat_file_for_the_given_asn
