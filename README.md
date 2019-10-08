@@ -28,7 +28,7 @@ hdfs:///your/hdfs/tstat_file_with_flows_from_given_asn
 
 Choose: target AS number to filter with, ipasn_file (--files and --local_asn_ipasn_file), tstat input filename, tstat output filename
 
-## run
+## Run
 
 ./run_filter_tstat_by_asn.sh
 
