@@ -21,6 +21,7 @@ $ pyasn_util_convert.py --single rib.youtfilename.bz2 ipasn_file
 ### choose yout tstat input and output files
 
 hdfs:///your/hdfs/input_tstat_file/log_tcp_complete.gz
+
 hdfs:///your/hdfs/tstat_file_with_flows_from_given_asn
 
 ### edit run_filter_tstat_by_asn.sh
