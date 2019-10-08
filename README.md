@@ -10,7 +10,7 @@ https://pypi.org/project/pyasn/
 
 ## Input:
 
-### download the ipasn file matching the dates on your tstat data
+### download the ipasn file matching tstat dates, make it available on the driver.
 
 $ echo 20191008 > file_with_dates
 
