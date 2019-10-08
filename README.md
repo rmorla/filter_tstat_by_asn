@@ -10,7 +10,7 @@ https://pypi.org/project/pyasn/
 
 ## Input:
 
-### ipasn
+### download the ipasn file matching the dates on your tstat data
 
 $ echo 20191008 > file_with_dates
 
