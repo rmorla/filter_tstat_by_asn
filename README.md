@@ -18,7 +18,7 @@ $ pyasn_util_download.py --dates-from-file file_with_dates.txt
 
 $ pyasn_util_convert.py --single rib.youtfilename.bz2 ipasn_file
 
-### choose yout tstat input
+### choose yout tstat input and output files
 
 hdfs:///your/hdfs/input_tstat_file/log_tcp_complete.gz
 
